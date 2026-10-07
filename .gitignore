@@ -1,0 +1,4 @@
+.DS_Store
+__pycache__/
+*.pyc
+es/lafise-agentes-s1-intro.html
