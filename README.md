@@ -14,6 +14,7 @@ con un **catálogo (o esquema) por asistente**.
   - `00 - Course Overview`
   - `Modulo 0 - Fundamentos de Agentes/` — conceptual
   - `Modulo 1 - Vector Search y Unity Catalog/` — `00_setup` → `05_reto`, `solutions/`, `data/`
+  - `Modulo 1 - .../06_demo_indexacion_rapida` — demo **autocontenida** (compartible sola): por qué tarda la indexación (endpoint frío vs caliente), actualización incremental con `MERGE` + `chunk_id` determinístico, y Direct Access. Probada en clásico DBR 17.3 (2026-10-14).
 - `build/lafise-agentes-alertas-aml.dbc` — archivo DBC para importar todo el árbol en un clic.
 - `es/` — `invitacion.md`, `guia-rapida.md` (facilitador) y `lafise-agentes-s1-intro.html` (deck de los primeros 40 min).
 - `RUNBOOK.md` — guía de despliegue: requisitos de entorno, importación, permisos por asistente, smoke test y día de la sesión.
